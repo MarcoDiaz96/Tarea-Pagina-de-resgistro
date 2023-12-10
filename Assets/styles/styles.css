@@ -1,0 +1,204 @@
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+  }
+.formu{
+
+
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  right: 5px;
+  top: 400px;
+  height: 600px;
+  
+  
+}
+  label {
+    display: block;
+    margin-bottom: 8px;
+  
+    
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    border: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+button :hover{
+  background-color: aqua;
+}
+
+  
+
+  .oauth-buttons button {
+    width: 48%;
+    margin-right: 4%;
+    border-color: #000000;
+    border-radius: 4px;
+    padding: 15px 20px;
+  }
+  
+  #create{
+    font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+font-size: x-large;
+
+text-align: center;
+  }
+
+  #google{
+    border: 1px solid rgb(0, 0, 0);
+    width: 205px;
+    height: 70px;
+    top: 30px;
+    left: -10px;
+    border-radius: 12px;
+    position: relative;
+    background-image: url(./img/Google-logo.png);
+   background-position: center;
+   background-position-x: 10px;
+   background-size: 50px;
+   background-repeat: no-repeat;
+    
+    
+  
+    
+  }
+
+  #apple{
+    border: 1px solid rgb(0, 0, 0);
+    width: 205px;
+    height: 70px;
+    border-radius: 12px;
+    position: relative;
+    left: 205px;
+    top: -57.9px;
+    background-image: url(./img/apple.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position-x: -10px;
+    background-position-y: -8px;
+  }
+  #login{
+    background-color: #6B43FF;
+    color: #ffffff;
+    border: 1px solid rgb(0, 0, 0);
+    width: 400px;
+    height: 67px;
+    top: 697px;
+    left: 216px;
+    border-radius: 12px;
+  }
+  #finaltext{
+    color: #6B43FF;
+    width: 321px;
+    height: 47px;
+    top: 773px;
+    left: 0px;
+    right: 200px;
+  text-align: right;
+    
+  }
+  .label{
+    font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+
+  }
+
+  .inp{
+    width: 300px;
+    height: 67px;
+    top: 350px;
+    left: 216px;
+    border-radius: 12px;
+    border: 1px solid rgb(0, 0, 0);
+
+  }
+
+  #texto{
+    margin-left: 70px;
+  }
+
+ #desk{
+  background: linear-gradient(#B492FD4D,#AD4EF5F3);
+  width: 587px;
+  height: 1032px;
+  left: 300px;
+background-image: url(./img/developer_male-removebg-preview.png); 
+background-position: center;
+background-repeat: no-repeat;
+ }
+
+ 
+  .desarrollo{
+  background: linear-gradient(#B492FD4D,#AD4EF5F3);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 587px;
+  height: 1032px;
+  left: 300px;
+  
+  }
+
+  .inter{
+    padding:20px;
+    width:80px;
+    left:853px;
+    height:1032;
+  
+  }
+
+  h5{
+    display:inline-block;
+    position:relative;
+
+  }
+
+  h5::after,h5::before{
+    content:'';
+    position:absolute;
+    width:170px;
+    height:1px;
+    background-color: #000000;
+    top: 0.6em;
+
+
+  }
+
+  h5::before{
+    left:20px;
+  }
+
+  h5::after{
+    right:20px;
+  }
+
+  #or{
+    text-align: center;
+  }
+    
+  
